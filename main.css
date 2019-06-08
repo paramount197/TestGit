@@ -5,7 +5,7 @@ body {
   ul {
     font-family: monospace;
   }
-  
+
 li {
   list-style: circle;
 }
@@ -14,6 +14,14 @@ li {
   list-style: square;
 }
 
+.timer {
+    font-size: 2.5em;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background: #ccc;
+  }
+  
 #date {
   font-size: 12px;
   font-style: italic;
