@@ -1,8 +1,9 @@
 body {
-    font-family: helvetica;
-  }
+  background:lightgrey;
+  font-family: 'Open Sans', sans-serif;
+}
   
-  ul {
+ul {
     font-family: monospace;
   }
 
@@ -21,7 +22,15 @@ li {
     margin: 0 auto;
     background: #ccc;
   }
-  
+
+  #display {
+    font-size: 40px;
+    background: rgba(255,255,255,.3);
+    border-radius: 15px;
+    margin: 20px auto 0px auto;
+    width: 50%;
+   }
+
 #date {
   font-size: 12px;
   font-style: italic;
