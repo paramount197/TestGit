@@ -1,18 +1,35 @@
 body {
-  background:lightgrey;
-  font-family: 'Open Sans', sans-serif;
-}
-  
-ul {
-    font-family: monospace;
-  }
-
-li {
-  list-style: circle;
+  background-color: rgb(241, 160, 174);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 18px;
+  color: rgb(32, 85, 8);
+  fill: #FF9800;
 }
 
-.list {
-  list-style: square;
+h1 {
+ 
+  background-color: lightgrey;
+  width: 970px;
+  border-radius: 25px;
+  border: 10px solid rgb(160, 181, 240);
+  /* border: 15px solid green; */
+  padding: 5px;
+  margin: 5px;
+}
+.container {
+  background-color: lightgrey;
+  width: 500px;
+  /* border: 15px solid green; */
+  border-radius: 25px;
+  border: 20px solid #73AD21;
+  padding: 50px;
+  margin: 50px;
+}
+img {
+  border-radius: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 10px solid rgb(160, 181, 240);
+  float: right;
 }
 
 .timer {
@@ -23,16 +40,26 @@ li {
     background: #ccc;
   }
 
-  #display {
-    font-size: 40px;
+  #row {
+    margin: auto;
+    width: 500%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+#display {
+    font-size: 100px;
     background: rgba(255,255,255,.3);
-    border-radius: 15px;
-    margin: 20px auto 0px auto;
-    width: 50%;
+    border-radius: 500px;
+    margin: 25px auto 0px auto;
+    width: 200px;
    }
 
 #date {
-  font-size: 12px;
+  font-size: 20px;
   font-style: italic;
   font-weight: bold;
+  width: 500px;
+  /* border: 15px solid green; */
+  padding: 5px;
+  margin: 5px;
 }
